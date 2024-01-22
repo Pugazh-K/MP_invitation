@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #7dafb5;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+footer {
+  opacity: 90%;
+  text-align: right;
+  justify-content: end;
+  color: rgb(17, 6, 12);
+  font-size: small;
+
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.creative {
+  color: rgb(14, 14, 118);
+}
+
+button {
+  border: black;
+  padding: 3%;
+  border-radius: 50%;
+  background-color: rgb(133, 104, 202);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h2 {
+    font-size: 3 rem;
+    text-align: center;
+  }
+}
